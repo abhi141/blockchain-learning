@@ -1,0 +1,15 @@
+{
+  "name": "web3",
+  "version": "1.0.0",
+  "description": "testting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishek sreeram",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-tx": "^2.1.2",
+    "web3": "^1.7.3"
+  }
+}
