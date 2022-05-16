@@ -13,11 +13,6 @@ var simplestorageContract = new web3.eth.Contract(contractABI,contractAddress);
 var privateKey = Buffer.from('f6681c35ebb83164c15be99909bea7b7e782fc3e49058d5f3b6869a6c766eaf4', 'hex');
 console.log(simplestorageContract)
 
-simplestorageContract.methods.retrivePure(5).call().then(function(result){
-console.log(result)
-
-})
-
 
 // sign and deploy a smart contract
 
